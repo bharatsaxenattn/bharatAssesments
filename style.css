@@ -1,0 +1,151 @@
+
+body{
+    background-color:#575757;
+}
+header{
+    color: #fff
+}
+.main-container{
+    align-self: center;
+    align-content: center;
+    /*height: 100em;*/
+    margin-left: 4em;
+    margin-right: 4em;
+    background-color: rgb(53, 53, 53);
+
+}
+.div1
+{
+    background-color: rgb(53, 53, 53);
+    margin-left: 7em;
+    margin-right: 7em ;
+}
+.list1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    width: 960px;
+  }
+  
+  .li1 {
+    float: left;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #111;
+
+  }
+#mainImage{
+    display: block;
+    background-color: #111;
+    height: 360px;
+    width: 960px;
+    margin-left: 10px;
+    align-self: center;
+    margin-top: 2em;
+    
+}
+.main-para{
+    width: 960px;
+    margin-left: 10px;
+    background: #606060;
+    
+}
+h4,hr{
+    width: 960px;
+    
+}
+
+.para1
+{
+    display: inline-block;
+    background-color:rgb(237, 237, 237);
+    width: 960px;
+    margin: 10px 0px 10px 10px;
+
+}
+
+
+.bottom-image-div{
+display: flex;
+justify-content: space-between;
+list-style-type: none;
+width: 100%;
+padding: 0px;
+}
+
+
+.div2{
+    background-color: white;
+    margin-top: 2em;
+}
+.sub-mid-div{
+    padding-left: 6.39em;
+    padding-right:6.39em;
+    width: 360px;
+    padding-top: 2em;
+}
+.images{
+    padding-left: 7em;
+    padding-right: 8.5em;
+
+}
+.img{
+    margin-right: 2em;
+    
+}
+figcaption{
+    text-align: center;
+}
+.bottom-division{
+    background-color: rgb(39, 39, 39);
+    height: 3em;
+}
+.footer-para
+{
+    display: inline-block;
+    padding: 1em ;
+    
+    
+    
+}
+.footer-para2
+{
+    display: inline-block;
+}
+.p1{
+    margin: 0em;
+    color: white;
+    float: left!important;
+    
+}
+.p2
+{
+    color: white;
+    align-self: right;
+    padding-right: 1em;;
+    float: right!important;
+
+}
+.pp
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.foo
+{
+    padding-left: 6em;
+    padding-right: 7.5em;
+}

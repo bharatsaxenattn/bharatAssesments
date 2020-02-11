@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <link rel="stylesheet" href="style1.css">
+    <title>Form Page</title>
+</head> 
+    <body>
+         <div>
+    <H2>TO THE NEW</H2>
+    <ul class="main-ul">
+        <li class="li1"><a href="#">HOME</a></li>
+        <li class="li1"><a href="#">Quick Help</a></li>
+    </ul>
+    <hr>
+    </div>
+        <br>
+        <div class="main">
+         <div id="form-heading">
+      <h1>Bug Report</h1></div>
+       <div class="form">
+  <form action="#">
+     
+      <br>
+    <label for="title">Title*</label>
+    <input type="text" id="title" name="formTitle" placeholder="Title">
+
+    <label for="lname">Description</label>
+    <input type="textarea" id="desc" name="formDescription"  rows="5" cols="5" placeholder="Description" >
+
+    <label for="operating">Operating System</label>
+    <select id="os" name="formOs">
+      <option value="xp"> Window Xp</option>
+      <option value="win 7">Window 7</option>
+      <option value="Linux">Linux</option>
+    </select>
+      
+      <!--for product dropdown-->
+      <label for="product">Product</label>
+    <select id="pro" name="Product">
+      <option value="xp"> Window Xp</option>
+      <option value="win 7">Window 7</option>
+      <option value="Linux">Linux</option>
+    </select>
+      
+      <label for="version">Version*</label>
+      <br>
+    <input type="text" id="ver" name="Version">
+      <br>
+      <label for="License" id="licenseid">License</label>
+      <br>
+      <div class="radioLic">
+      <input class="radiolicense" type="radio" name="license" value="Free" checked> Free
+      <input class="radiolicense" id="rd1" type="radio" name="license" value="Business"> Business<br>
+        </div>
+      <br>
+      <label for="severity">Severity</label>
+    <select id="sev" name="Severity">
+      <option value="Critical">Critical</option>
+      <option value="Ok">Ok</option>
+      <option value="Good">Good</option>
+    </select>
+      <br>
+       <label for="">Attachments</label>
+      <br>
+       <input type="text" id="attactText" name="myfile" placeholder="No file selected">
+      <input type="file" id="myfile" name="myfile">
+      <div class="submi_div">
+      <input type="submit" value="Submit">
+      </div>
+      
+    
+  </form>
+</div>
+            </div>
+    </body>
+</html>
+    
+    
+    
