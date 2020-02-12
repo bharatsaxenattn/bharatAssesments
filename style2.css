@@ -1,0 +1,23 @@
+li{
+margin:10px;
+}
+#main-container,#container{
+background-color:#666;
+color: white;
+}
+#sub-container{
+background-color: white;
+}
+body{
+margin-top:7px;
+background-color:#515151;
+}
+#para{
+background-color:#d1d1d1;
+margin-top:7px;
+}
+#image1{
+height:360px;
+width:1140px;
+margin-top:7px;
+}
